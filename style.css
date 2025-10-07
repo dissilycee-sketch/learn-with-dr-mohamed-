@@ -1,0 +1,96 @@
+body {
+  font-family: 'Amiri', serif;
+  background: radial-gradient(circle, #1a1a1a 0%, #000 100%);
+  color: #fff;
+  text-align: center;
+  direction: rtl;
+  overflow-x: hidden;
+}
+h1 {
+  color: gold;
+  margin-top: 20px;
+  font-size: 2.3em;
+  text-shadow: 0 0 12px gold;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid gold;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px gold;
+  margin-top: 25px;
+}
+input, select, button {
+  font-family: 'Amiri', serif;
+  font-size: 1.1em;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid gold;
+  background: #000;
+  color: gold;
+  text-align: center;
+  transition: 0.3s;
+}
+button:hover {
+  background: gold;
+  color: #000;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.hidden { display: none; }
+
+.question-box {
+  margin: 25px 0;
+  padding: 15px;
+  border: 1px solid gold;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px gold;
+}
+.answers button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+}
+#next-btn {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  background: gold;
+  color: black;
+  font-weight: bold;
+}
+.result-box {
+  text-align: center;
+  border: 2px solid gold;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 15px gold;
+  background: rgba(255, 255, 255, 0.05);
+}
+.result-box h2 {
+  color: gold;
+  margin-bottom: 10px;
+  font-size: 1.6em;
+}
+.result-box p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+footer {
+  margin-top: 40px;
+  font-size: 1.1em;
+  color: gold;
+}
+.fade-in {
+  animation: fadeIn .8s ease forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
